@@ -1,16 +1,21 @@
-document.addEventListener("keydown",teclaAbajo);
-document.addEventListener("keyup",teclaArriba);
-document.addEventListener("keypressed",teclaPulsada);
+document.addEventListener("keydown", teclaAbajo);
+document.addEventListener("keyup", teclaArriba);
+document.addEventListener("keypress", teclaPulsada);
 
-function teclaAbajo(){
-    document.getElementById("parrafo3").innerHTML="Tecla abajo";
+function teclaAbajo() {
 
-}
-function teclaArriba(){
-    document.getElementById("parrafo3").innerHTML="Tecla arriba";
+    document.getElementById("parrafo3").innerHTML = "Tecla abajo";
 
 }
-function teclaPulsada(){
-    document.getElementById("parrafo3").innerHTML="Tecla pulsada";
+
+function teclaArriba() {
+
+    document.getElementById("parrafo3").innerHTML = "Tecla arriba";
+
+}
+
+function teclaPulsada() {
+
+    document.getElementById("parrafo3").innerHTML = "Tecla pulsada";
 
 }
