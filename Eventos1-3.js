@@ -18,6 +18,5 @@ function manejaTecla(event) {
     } else if (event.type == "keypress") {
         teclaPulsada += 1;
         document.getElementById("parrafo3").innerHTML = "Evento abajo " + teclaAbajo + " Evento Arriba " + teclaArriba + " Evento pulsado " + teclaPulsada;
-
     }
 }
